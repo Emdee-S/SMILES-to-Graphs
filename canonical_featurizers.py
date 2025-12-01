@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Canonical Atom and Bond Featurizers - extracted from DGL-LifeSci
 # Dependencies: rdkit, numpy
 
@@ -406,4 +405,5 @@ if __name__ == "__main__":
     print(f"\nTesting single atom molecule...")
     atom_features_single, bond_features_single = featurize_molecule("C", self_loop=True)
     print(f"Single atom - Edge indices shape: {bond_features_single['edge_indices'].shape}")
+
     print(f"Single atom - Edge indices: {bond_features_single['edge_indices']}") 
