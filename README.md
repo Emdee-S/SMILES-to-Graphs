@@ -17,7 +17,7 @@ If you publish this as a standalone repo (for example `SMILES-to-graphs`), a
 typical workflow for new users would be:
 
 ```bash
-git clone https://github.com/Emdee-S/SMILES-to-graphs.git
+git clone https://github.com/Emdee-S/SMILES-to-Graphs.git
 cd SMILES-to-graphs
 
 # install minimal deps (ideally inside a virtualenv)
@@ -54,6 +54,7 @@ jupyter notebook example.ipynb
   with a check and raise a helpful error (already done in the script).
 - **Need self-loops or padding?** Control it through the `self_loop` argument
   when constructing `CanonicalBondFeaturizer`.
+
 
 
 
